@@ -32,5 +32,5 @@ public class InformeForense {
     @Override 
     public String toString() { 
         return "Informe{adnPositivo=" + adnPositivo + ", nivelRiesgo=" + nivelRiesgo + ", conclusion=" + conclusion + "}"; 
-    } 
+    }
 } 

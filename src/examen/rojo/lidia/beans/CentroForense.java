@@ -5,7 +5,7 @@ public class CentroForense {
     private int id; 
     private String nombre; 
     private String pais; 
-    private String nivelSeguridad; 
+    private int nivelSeguridad; 
     
     // Constructor
     public CentroForense() {} 
@@ -23,13 +23,13 @@ public class CentroForense {
     public String getPais() { return pais; } 
     public void setPais(String pais) { this.pais = pais; } 
 
-    public String getNivelSeguridad() { return nivelSeguridad; } 
-    public void setNivelSeguridad(String nivelSeguridad) { this.nivelSeguridad = nivelSeguridad; } 
+    public int getNivelSeguridad() { return nivelSeguridad; } 
+    public void setNivelSeguridad(int nivelSeguridad) { this.nivelSeguridad = nivelSeguridad; } 
      
 
     // To String
     @Override 
     public String toString() { 
         return "Agencia{id=" + id + ", nombre='" + nombre + "'}"; 
-    } 
+    }
 } 
