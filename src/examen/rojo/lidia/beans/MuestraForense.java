@@ -1,4 +1,4 @@
-package examen.apellido.nombre.beans;
+package examen.rojo.lidia.beans;
 
 public class MuestraForense {
     

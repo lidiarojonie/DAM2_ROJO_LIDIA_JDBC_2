@@ -1,4 +1,4 @@
-package examen.apellido.nombre.dao;
+package examen.rojo.lidia.dao;
 
 public class InformeForenseDAOImpl {
     
